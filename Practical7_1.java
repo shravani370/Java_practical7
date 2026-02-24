@@ -3,7 +3,7 @@ class Practical7_1 {
     static long factorialIterative(int n) {
 
         if (n < 0) {
-            throw new IllegalArgumentException("Factorial not defined for negative numbers");
+            return -1;
         }
 
         long result = 1;
@@ -18,7 +18,7 @@ class Practical7_1 {
     static long factorialRecursive(int n) {
 
         if (n < 0) {
-            throw new IllegalArgumentException("Factorial not defined for negative numbers");
+            return -1;
         }
 
         if (n == 0 || n == 1) {
